@@ -1,0 +1,16 @@
+/* The CSS Side of tables task */
+.table {
+    width: 250px;
+    height: 100px;
+    border-collapse: collapse;
+}
+
+/* The CSS Side of forms */
+label {
+    vertical-align: top;
+    display: inline;
+}
+
+div {
+    margin: 10px 0;
+}

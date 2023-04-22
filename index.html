@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3 Forms</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+        <fieldset>
+            <legend>Your address</legend>
+            
+            <form action="#" method="#">
+            
+                <div>
+                    <label for="firstname">First name</label>
+                    <input type="text" id="firstname"> 
+                </div>
+                <div>
+                    <label for="lastname">Last name</label>
+                    <input type="text" id="lastname"> 
+                </div>
+                <div>
+                    <label for="street">Street</label>
+                    <input type="text" id="street"> 
+                </div>
+                <div>
+                    <label for="city">City</label>
+                    <input type="text" id="city">
+                </div>
+            </form>
+            </fieldset>        
+    
+   <fieldset>
+    <legend>Additional Details</legend>
+    
+        <div>
+            <label for="biography">Biography</label>
+            <textarea name="biography" id="biography" cols="20" rows="6"></textarea> <br>
+
+        </div>
+        <div>
+            <label for="image">Image</label>
+            <input type="file" id="image"> <br>
+        </div>
+        <div>
+            <label for="ageGroup">Age Group</label>
+            <select name="ageGroup" id="">
+                <option value="">
+                    0 to 9 years
+                </option>
+                <option value="">
+                    10 to 19 years
+                </option>
+                <option value="">
+                    20 to 29 years
+                </option>
+            </select> <br>
+        </div>
+        
+       </form>
+   </fieldset>
+
+   <fieldset>
+    <legend>Interests</legend>
+    <form action="">
+        <div>
+            <label for="hobbies">Hobbies</label>
+            <select name="hobbies" id="hobbies">
+                <option value="soccer">
+                    Playing Soccer
+                </option>
+                <option value="dancing">
+                    Dancing
+                </option>
+                <option value="dancing">
+                    Gardening
+                </option>
+                <option value="movies">
+                    Watching Movies
+                </option>
+            </select>
+        </div>
+       <div>
+            <label for="favourite">Favourite car? </label>
+            <select name="favourite_cars" id="favourite_cars">
+                <option value="volvo">
+                    Volvo
+                </option>
+                <option value="toyota">
+                    Toyota
+                </option>
+                <option value="kia">
+                    Kia
+                </option>
+            </select>
+       </div>
+       <div>
+        <label for="favourite_transport">Favourite public transport?</label>
+        <select name="fav_transport" id="fav_transport">
+                <optgroup label="Ground">
+                    <option value="train">Train</option>
+                    <option value="bus">Bus</option>
+                </optgroup>
+              <optgroup label="Water">
+                <option value="speed_boat"> Speed_boat </option>
+                <option value="ship">Ship</option>
+              </optgroup>
+                
+        </select>
+       </div>
+
+    </form>
+   </fieldset>
+
+    
+</body>
+</html>
